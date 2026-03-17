@@ -24,4 +24,5 @@ pydub>=0.25.1
 audio-recorder-streamlit>=0.0.9
 numpy>=1.24.0
 duckduckgo-search>=5.0.0
+atlassian-python-api>=3.41.0
 imageio-ffmpeg>=0.4.9

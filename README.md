@@ -49,7 +49,6 @@ A privacy-focused, local Retrieval Augmented Generation (RAG) system that allows
     ```bash
     pip install -r requirements.txt
     ```
-    *Note: This automatically installs `imageio-ffmpeg` for audio processing.*
 
 ## Usage
 
@@ -73,14 +72,3 @@ The web interface will open in your browser automatically.
     - Configure Tesseract path.
     - Clear Knowledge Base.
 4.  **Metrics**: View detailed statistics about the last response (Latency, Source Count, Quality Scores).
-
-## Project Structure
-
-- `app/core`: Abstract interfaces and data models.
-- `app/loaders`: File ingestion strategies (PDF, OCR, etc.).
-- `app/embeddings`: Embedding model wrappers.
-- `app/vectorstore`: ChromaDB vector store integration.
-- `app/llm`: Ollama LLM client.
-- `app/rag`: Main RAG engine logic.
-- `app/frontend`: Streamlit UI components.
-
